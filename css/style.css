@@ -5,20 +5,73 @@ body {
   width: 100%;
   background-size: contain;
 }
-#wrapper{
+#wrapper {
   width: 80%;
   margin: 0 auto;
   padding: 0 auto;
 }
-#wrapper_name{
+#wrapper_name {
   text-align: center;
   width: 60%;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 0 auto;
 }
-#wrapper_introduction{
+#wrapper_introduction {
   width: 90%;
-  margin:20px;
+  margin: 20px;
   padding: 20px;
 }
-#
+/* exeprience */
+#wrapper_exeprience {
+  width: 90%;
+  margin: 2px;
+  /* padding: 5px;/ */
+}
+#wrapper_exeprience_one {
+  display: flex;
+  margin: 0 auto;
+}
+#wrapper_exeprience_two {
+  display: flex;
+  /* margin: 0 auto;/ */
+}
+.company-name {
+  margin-right: 50%;
+  float: left;
+}
+.exe-year {
+  float: right;
+}
+#exe-description ul li {
+  list-style-type: square;
+}
+.title {
+  color: black;
+}
+/* education  */
+#wrapper_education {
+  width: 90%;
+  margin: 2px;
+  border-bottom: 1px dotted rgb(42, 42, 25);
+}
+#wrapper-education-one {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.bachlor {
+  margin-right: 50%;
+  margin-right: dot yellow;
+  float: left;
+}
+.exe-year {
+  float: right;
+}
+#wrapper-certificate-one {
+  display: flex;
+}
+/*Technical skills */
+#wrapper-technical {
+  display: flex;
+  margin: auto;
+}
