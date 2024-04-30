@@ -6,21 +6,54 @@ body {
   background-size: contain;
 }
 #wrapper {
+  width: 90%;
+  margin: 0 auto;
+  top: 0;
+  background-color: rgb(25, 23, 23);
+  color: rgb(196, 189, 189);
+}
+#info {
   width: 80%;
   margin: 0 auto;
-  padding: 0 auto;
+  /* padding-top: 80px; */
+  background-color: rgb(54, 49, 49);
+  border-bottom: 1px solid rgb(64, 57, 57);
+}
+#name_and_pic {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+#pic {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+#namePic {
+  display: flex;
+  width: 60%;
+  text-align: left;
+  margin-right: 5%;
+}
+#namePic img {
+  width: 50%;
+  height: auto;
+  padding-top: 10px;
 }
 #wrapper_name {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-  padding: 0 auto;
+  width: 50%;
 }
+#address_info {
+  width: 40%;
+  text-align: left;
+}
+/* section 3 */
 #wrapper_introduction {
   width: 90%;
-  margin: 20px;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 10px;
 }
+
 /* exeprience */
 #wrapper_exeprience {
   width: 90%;
@@ -46,7 +79,7 @@ body {
   list-style-type: square;
 }
 .title {
-  color: black;
+  color: rgb(179, 175, 175);
 }
 /* education  */
 #wrapper_education {
