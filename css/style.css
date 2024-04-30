@@ -1,23 +1,16 @@
-body {
-  background-color: white;
-  margin: o auto;
-  padding: 0 auto;
-  width: 100%;
-  background-size: contain;
-}
 #wrapper {
   width: 90%;
   margin: 0 auto;
   top: 0;
-  background-color: rgb(25, 23, 23);
-  color: rgb(196, 189, 189);
+  background-color: rgb(57, 51, 51);
+  color: rgb(208, 198, 198);
 }
 #info {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  /* padding-top: 80px; */
-  background-color: rgb(54, 49, 49);
-  border-bottom: 1px solid rgb(64, 57, 57);
+  padding-left: 10px;
+  background-color: rgb(79, 71, 71);
+  border-bottom: 1px solid rgb(186, 173, 173);
 }
 #name_and_pic {
   width: 90%;
@@ -39,6 +32,7 @@ body {
   width: 50%;
   height: auto;
   padding-top: 10px;
+  padding-left: 10px;
 }
 #wrapper_name {
   width: 50%;
@@ -51,14 +45,22 @@ body {
 #wrapper_introduction {
   width: 90%;
   margin: 0 auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 /* exeprience */
+#expr {
+  display: block;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(79, 71, 71);
+}
 #wrapper_exeprience {
   width: 90%;
-  margin: 2px;
+  margin: 0 auto;
+  justify-content: space-between;
   /* padding: 5px;/ */
+  border-bottom: 1px solid rgb(186, 173, 173);
 }
 #wrapper_exeprience_one {
   display: flex;
@@ -79,13 +81,20 @@ body {
   list-style-type: square;
 }
 .title {
-  color: rgb(179, 175, 175);
+  color: rgb(235, 226, 226);
+  margin: 0 auto;
 }
 /* education  */
+#education {
+  width: 90%;
+  margin: auto;
+  padding: 5px auto;
+  background-color: rgb(79, 71, 71);
+}
 #wrapper_education {
   width: 90%;
-  margin: 2px;
-  border-bottom: 1px dotted rgb(42, 42, 25);
+  margin: 15px;
+  border-bottom: 1px solid rgb(186, 173, 173);
 }
 #wrapper-education-one {
   display: flex;
@@ -104,7 +113,75 @@ body {
   display: flex;
 }
 /*Technical skills */
+#skills {
+  width: 90%;
+  margin: auto;
+  padding: 5px auto;
+  background-color: rgb(79, 71, 71);
+}
 #wrapper-technical {
   display: flex;
   margin: auto;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(186, 173, 173);
+}
+.sec {
+  padding: 0 25px;
+}
+.sec ul li {
+  list-style: lower-latin;
+  text-decoration: none;
+}
+/*  */
+#footer {
+  width: 90%;
+  text-align: center;
+  height: 100px;
+  margin: 10px auto;
+  padding: 20px;
+}
+/* media query css */
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    background-color: white;
+    color: black;
+  }
+  #pic {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  #namePic {
+    display: flex;
+    width: 60%;
+    text-align: left;
+    /* margin-right: 5%; */
+  }
+  #namePic img {
+    display: none;
+  }
+  #wrapper_exeprience_one {
+    display: block;
+    margin: 0 auto;
+  }
+  #wrapper_exeprience_one {
+    /* display: flex; */
+    margin: 0 auto;
+    width: 100%;
+  }
+  #wrapper_exeprience_two {
+    /* display: flex; 
+  */
+    /* margin: 0 auto;/ */
+    width: 100%;
+  }
+  #wrapper-education-one {
+    /* display: flex; */
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2px;
+  }
 }
